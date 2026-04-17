@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+<div class="sidebar"><h2>BotForge</h2><button onclick="toggleForm()">+ New</button></div>
+<div class="main">
+<div id="bots"></div>
+<div id="form" style="display:none">
+<input id="name" placeholder="Name">
+<input id="business" placeholder="Business">
+<div id="faqs"></div>
+<button onclick="addFAQ()">+ FAQ</button>
+<button onclick="createBot()">Create</button>
+</div>
+</div></div>
+
+<div class="chat-preview">
+<div id="chat-box"></div>
+<input id="chat-input"><button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="/static/main.js"></script>
+</body></html>

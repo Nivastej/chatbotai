@@ -1,0 +1,1 @@
+(function(){const id=document.currentScript.getAttribute('data-id');alert('Chatbot loaded '+id);})();
